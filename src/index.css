@@ -22,7 +22,7 @@ body {
 
 header {
   width: 100%;
-  font-family: Graphik,-apple-system,system-ui,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-family: Graphik, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   margin: 1em 0;
 }
 
@@ -38,18 +38,18 @@ form input {
   flex-grow: 1;
   flex-shrink: 1;
   padding: 0.5em 1em;
-  font-family: Graphik,-apple-system,system-ui,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-family: Graphik, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
 form button {
   appearance: button;
-  background-color: #1652F0;
-  border: 1px solid #1652F0;
+  background-color: #1652f0;
+  border: 1px solid #1652f0;
   border-radius: 4px;
   box-sizing: border-box;
-  color: #FFFFFF;
+  color: #fff;
   cursor: pointer;
-  font-family: Graphik,-apple-system,system-ui,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-family: Graphik, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-size: 14px;
   line-height: 1.15;
   overflow: visible;
@@ -64,8 +64,12 @@ form button {
   width: fit-content;
 }
 
+ul li button {
+  float: right;
+}
+
 form button:disabled {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 form button:focus {
@@ -73,20 +77,20 @@ form button:focus {
 }
 
 form button:hover {
-  background-color: #0A46E4;
-  border-color: #0A46E4;
+  background-color: #0a46e4;
+  border-color: #0a46e4;
 }
 
 form button:active {
-  background-color: #0039D7;
-  border-color: #0039D7;
+  background-color: #0039d7;
+  border-color: #0039d7;
 }
 
 ul {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  font-family: Graphik,-apple-system,system-ui,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-family: Graphik, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
 ul li {
@@ -99,11 +103,6 @@ ul li input[type=checkbox] {
   margin-right: 1em;
 }
 
-ul li  button{
-  float: right;
-  
-}
-
 .completed {
   text-decoration: line-through;
   font-style: italic;
@@ -111,29 +110,29 @@ ul li  button{
 }
 
 .delete-btn {
-	padding: 0.5em;
-	cursor: pointer;
-	display: flex;
-	align-items: center;
-	border: none;
-	border-radius: 5px;
-	box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
-	background: #e62222;
+  padding: 0.5em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+  background: #e62222;
   color: white;
 }
 
 .delete-btn:hover {
-	background: #ff3636;
+  background: #ff3636;
 }
 
 .delete-btn:focus {
-	outline: none;
+  outline: none;
 }
 
 .text-input {
   width: 100%;
   border: 1px solid #dfdfdf;
-  font-family: Graphik,-apple-system,system-ui,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-family: Graphik, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-size: 1em;
   color: #333;
 }
