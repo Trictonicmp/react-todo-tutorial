@@ -6,15 +6,12 @@ import InputTodo from './InputTodo';
 import TodoList from './TodoList';
 
 const TodoContainer = () => {
+  const localTodos = JSON.parse(localStorage.getItem('todos'));
   // eslint-disable-next-line no-unused-vars
-  const [todos, setTodos] = useState([]);
-
-  /* if (localStorage.getItem('todos')) {
-    setTodos(JSON.parse(localStorage.getItem('todos')));
-  } */
+  const [todos, setTodos] = useState(localTodos);
 
   const saveToLocal = () => {
-    localStorage.setItem('tasks', JSON.stringify(todos));
+    localStorage.setItem('todos', JSON.stringify(todos));
   };
 
   useEffect(() => {
