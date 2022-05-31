@@ -1,0 +1,138 @@
+@import url(reset.css);
+
+body {
+  width: 100%;
+}
+
+#root {
+  width: calc(100% - 2em);
+  max-width: 30em;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#root .App {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+header {
+  width: 100%;
+  font-family: Graphik, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  margin: 1em 0;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-inline: auto;
+  margin-bottom: 1em;
+}
+
+form input {
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 0.5em 1em;
+  font-family: Graphik, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+form button {
+  appearance: button;
+  background-color: #1652f0;
+  border: 1px solid #1652f0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: Graphik, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  line-height: 1.15;
+  overflow: visible;
+  padding: 12px 16px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: all 80ms ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+}
+
+ul li button {
+  float: right;
+}
+
+form button:disabled {
+  opacity: 0.5;
+}
+
+form button:focus {
+  outline: 0;
+}
+
+form button:hover {
+  background-color: #0a46e4;
+  border-color: #0a46e4;
+}
+
+form button:active {
+  background-color: #0039d7;
+  border-color: #0039d7;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Graphik, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+ul li {
+  width: 100%;
+  padding: 0.5em 0;
+  color: #333;
+}
+
+ul li input[type=checkbox] {
+  margin-right: 1em;
+}
+
+.completed {
+  text-decoration: line-through;
+  font-style: italic;
+  color: grey;
+}
+
+.delete-btn {
+  padding: 0.5em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+  background: #e62222;
+  color: white;
+}
+
+.delete-btn:hover {
+  background: #ff3636;
+}
+
+.delete-btn:focus {
+  outline: none;
+}
+
+.text-input {
+  width: 100%;
+  border: 1px solid #dfdfdf;
+  font-family: Graphik, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 1em;
+  color: #333;
+}
